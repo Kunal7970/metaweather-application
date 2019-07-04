@@ -93,7 +93,7 @@ root = tkinter.Tk()
 myvar = tkinter.StringVar()
 myvar.set('')
 
-tkinter.Label(root, text = "Enter the City Name").grid(row = 0)
+tkinter.Label(root, text = "Enter the City name").grid(row = 0)
 
 
 e1 = tkinter.Entry(root, textvariable=myvar)
