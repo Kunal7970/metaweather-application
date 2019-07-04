@@ -9,6 +9,7 @@ import ssl
 
 
 # Test
+# Test 1
 def get_list(*args):
     global input_1, title1
     input_1 = e1.get()
@@ -92,7 +93,7 @@ root = tkinter.Tk()
 myvar = tkinter.StringVar()
 myvar.set('')
 
-tkinter.Label(root, text = "Enter the City Name").grid(row = 0)
+tkinter.Label(root, text = "Enter the City name").grid(row = 0)
 
 
 e1 = tkinter.Entry(root, textvariable=myvar)
